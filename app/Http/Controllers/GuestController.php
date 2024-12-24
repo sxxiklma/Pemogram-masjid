@@ -13,7 +13,8 @@ class GuestController extends Controller
 {
     public function index()
     {
-        $nextKajian = Kajian::where('start_time', '>', now())->orderBy('start_time')->first();
+        $nextKajian = Kajian::where('start_time', '>', now())
+    ->orderBy('start_time')->first(); // Mengambil kajian pertama yang ditemukan
         $defaultCityId = 1638;
         $jadwalDefault = app('App\Http\Controllers\JadwalsholatController')->getJadwalSholat($defaultCityId);
         $recentJamaah = Jamaah::orderBy('id', 'desc')->take(5)->get();

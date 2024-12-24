@@ -18,7 +18,7 @@
 
 @if($nextKajian)
 <div class="container my-5">
-    <div class="row justify-content-between align-items-center" style="background-color:#a36231; box-shadow: 0 4px 8px rgba(0,0,0,0.2); padding: 20px; border-radius: 10px;">
+    <div class="row justify-content-between align-items-center" style="background-color:#1a3671; box-shadow: 0 4px 8px rgba(0,0,0,0.2); padding: 20px; border-radius: 10px;">
         <!-- Left Side: Kajian Terdekat Information -->
         <div class="col-md-5 text-md-start text-center">
             <h2 class="text-white mb-3">Kajian Terdekat:</h2>

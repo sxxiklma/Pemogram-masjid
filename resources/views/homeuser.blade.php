@@ -10,7 +10,7 @@
             @else
                 <div class="table-responsive">
                     <table class="table table-bordered table-hover table-striped bg-white">
-                        <thead style="background-color: #8e4c28; color: white;">
+                        <thead style="background-color: #1a3671; color: white;">
                             <tr>
                                 <th scope="col">Nama</th>
                                 <th scope="col">No.Tlp</th>
